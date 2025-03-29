@@ -88,13 +88,26 @@ class LoginPage extends StatelessWidget {
                   flex: 5,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(20),
-                    child: Image.asset(
-                      'web/icons/loginpage.jpg',
+                    child: Image.network(
+                      'https://drive.google.com/uc?export=view&id=1z6-Kqf-WueZLybBZPqFfuFytKPZ1ljmm',
                       width: MediaQuery.of(context).size.width * 0.3,
                       fit: BoxFit.cover,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) return child;
+                        return Center(
+                          child: CircularProgressIndicator(),
+                        );
+                      },
+                      errorBuilder: (context, error, stackTrace) {
+                        return Text(
+                          'Failed to load image',
+                          style: TextStyle(color: Colors.red),
+                        );
+                      },
                     ),
                   ),
                 ),
+
               ],
             )
                 : SingleChildScrollView(
