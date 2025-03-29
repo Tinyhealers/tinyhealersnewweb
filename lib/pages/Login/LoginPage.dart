@@ -89,7 +89,7 @@ class LoginPage extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(20),
                     child: Image.asset(
-                      'lib/images/loginpage.jpg',
+                      'web/icons/loginpage.jpg',
                       width: MediaQuery.of(context).size.width * 0.3,
                       fit: BoxFit.cover,
                     ),
@@ -104,7 +104,7 @@ class LoginPage extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(20),
                     child: Image.asset(
-                      'lib/images/loginpage.jpg',
+                      'web/icons/loginpage.jpg',
                       width: MediaQuery.of(context).size.width * 0.9,
                       fit: BoxFit.contain,
                     ),
