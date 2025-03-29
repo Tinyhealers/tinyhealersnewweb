@@ -42617,7 +42617,7 @@ A.atz.prototype={
 $0(){return new A.je(null)},
 $S:69}
 A.je.prototype={
-K(a){var s=null,r="Welcome to",q="Doctor Login",p="Admin Login",o="Secure & Reliable Healthcare Management",n="lib/images/loginpage.jpg",m=t.w,l=t.p
+K(a){var s=null,r="Welcome to",q="Doctor Login",p="Admin Login",o="Secure & Reliable Healthcare Management",n="web/icons/loginpage.jpg",m=t.w,l=t.p
 return A.ks(!0,A.kt(s,B.as,new A.bL(B.cj,A.hv(A.ba(a,s,m).w.a.a>800?A.cN(A.b([A.e0(A.cf(A.b([A.bH(r,s,s,s,A.c8(s,s,B.k,s,s,s,s,s,s,s,s,24,s,s,B.a2,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.bH("Tiny",s,s,s,A.c8(s,s,B.k,s,s,s,s,s,s,s,s,68,s,s,B.a2,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.bH("Healers",s,s,s,A.c8(s,s,B.k,s,s,s,s,s,s,s,s,68,s,s,B.a2,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cq(s,20,s),new A.q_(q,B.U,B.i,!1,new A.aaX(),s),A.cq(s,16,s),new A.q_(p,B.B,B.U,!0,new A.aaY(),s),A.cq(s,20,s),A.bH(o,s,s,s,A.c8(s,s,B.dw,s,s,s,s,s,s,s,s,14,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.aq,s)],l),B.w,B.cV,B.u),4),A.cq(s,s,50),A.e0(A.azH(A.c2(20),A.aFd(n,B.C4,A.ba(a,s,m).w.a.a*0.3)),5)],l),B.w,B.cV,B.u):A.v7(A.cf(A.b([A.azH(A.c2(20),A.aFd(n,B.C3,A.ba(a,s,m).w.a.a*0.9)),A.cq(s,40,s),A.bH(r,s,s,s,A.c8(s,s,B.k,s,s,s,s,s,s,s,s,22,s,s,B.a2,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.bH("Tiny",s,s,s,A.c8(s,s,B.k,s,s,s,s,s,s,s,s,68,s,s,B.a2,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.bH("Healers",s,s,s,A.c8(s,s,B.k,s,s,s,s,s,s,s,s,68,s,s,B.a2,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cq(s,20,s),new A.q_(q,B.U,B.i,!1,new A.aaZ(),s),A.cq(s,16,s),new A.q_(p,B.B,B.U,!0,new A.ab_(),s),A.cq(s,20,s),A.bH(o,s,s,s,A.c8(s,s,B.dw,s,s,s,s,s,s,s,s,14,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.db,s)],l),B.w,B.A,B.aZ),s),s,s),s),s,s),!0,B.ad,!0,!0)}}
 A.aaX.prototype={
 $0(){A.tH($.aD(),new A.aaW(),t.z)},
